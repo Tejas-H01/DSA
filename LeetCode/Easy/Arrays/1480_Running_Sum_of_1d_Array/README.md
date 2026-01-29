@@ -16,10 +16,10 @@ This problem is commonly used to introduce **prefix sum concepts** and efficient
 
 ## 🧪 Code Functionality
 
-- Traverses the array starting from the second element
-- Adds the previous element’s value to the current element
-- Modifies the array in place
-- Returns the updated array as the result
+- Traverses the array starting from the second element  
+- Adds the previous element’s value to the current element  
+- Modifies the array in place  
+- Returns the updated array as the result  
 
 ---
 
@@ -42,19 +42,19 @@ This problem is commonly used to introduce **prefix sum concepts** and efficient
 
 ## 🖥️ Screenshots
 
-📸 **Case (Run) result:**  
-![Case Screenshot](testcases.jpeg)
+📸 **Case:**  
+![Case](case.png)
 
-📸 **Submit result:**  
-![Submit Screenshot](submission.png)
+📸 **Submit:**  
+![Submit](submit.png)
 
 ---
 
 ## 📂 File Information
 
 - Solution.java — Java source code  
-- testcases.jpeg — Screenshot of Case (Run) execution  
-- submission.png — Screenshot of Submit result  
+- case.png — Screenshot of Case (Run) output  
+- submit.png — Screenshot of Submit result  
 - README.md — Problem documentation  
 
 ---
