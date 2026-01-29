@@ -1,79 +1,76 @@
-````md
-# LeetCode — Running Sum of 1d Array
+# 1480. Running Sum of 1D Array – Java Solution
 
-## Problem Overview
-Given an integer array `nums`, return the running sum of the array where  
-`runningSum[i] = nums[0] + nums[1] + ... + nums[i]`.
+This repository contains a Java solution for the **LeetCode problem: Running Sum of 1D Array**.
 
----
-
-## Approach
-- Initialize a variable `sum` to store cumulative total
-- Traverse the array once
-- Add current element to `sum`
-- Update the same index with the cumulative sum (in-place)
+The solution demonstrates how to compute the cumulative sum of an array using an **in-place, single-pass approach** for optimal performance.
 
 ---
 
-## Testcase Execution (Run)
+## 📌 Problem Overview
 
-### Input
-```text
-nums = [3, 1, 2, 10, 1]
-````
+Given an integer array, each element at index `i` is updated to store the sum of all elements from index `0` to `i`.
 
-### Output
-
-```text
-[3, 4, 6, 16, 17]
-```
-
-### Status
-
-```text
-Accepted
-Runtime: 0 ms
-All test cases passed
-```
+This problem is commonly used to introduce **prefix sum concepts** and efficient array traversal techniques.
 
 ---
 
-## Submission Result
+## 🧪 Code Functionality
 
-### Verdict
-
-```text
-Accepted (54 / 54 testcases passed)
-```
-
-### Performance
-
-```text
-Runtime: 0 ms (Beats 100.00%)
-Memory: 44.37 MB (Beats 46.72%)
-```
+- Traverses the array starting from the second element
+- Adds the previous element’s value to the current element
+- Modifies the array in place
+- Returns the updated array as the result
 
 ---
 
-## Complexity Analysis
+## 🧠 Concepts Covered
 
-* Time Complexity: O(n)
-* Space Complexity: O(1) — in-place modification
-
----
-
-## File Information
-
-* Language: Java
-* File: RunningSum.java
+- Arrays  
+- Prefix Sum (Running Sum)  
+- In-place array modification  
+- Linear traversal  
+- Time and Space Complexity optimization  
 
 ---
 
-## Author
+## ⏱️ Complexity Analysis
 
-Tejas Halvankar
+- **Time Complexity:** O(n)  
+- **Space Complexity:** O(1) (in-place)
 
-```
-::contentReference[oaicite:0]{index=0}
-```
+---
 
+## 🖥️ Screenshots
+
+📸 **Case (Run) result:**  
+![Case Screenshot](testcases.jpeg)
+
+📸 **Submit result:**  
+![Submit Screenshot](submission.png)
+
+---
+
+## 📂 File Information
+
+- Solution.java — Java source code  
+- testcases.jpeg — Screenshot of Case (Run) execution  
+- submission.png — Screenshot of Submit result  
+- README.md — Problem documentation  
+
+---
+
+## ⚠️ Notes
+
+- The array is modified in place  
+- No additional data structures are used  
+- Suitable for interview and beginner DSA practice  
+
+---
+
+## 👨‍💻 Author
+
+Tejas Halvankar  
+
+- GitHub: https://github.com/Tejas-H01  
+- LinkedIn: https://www.linkedin.com/in/your-linkedin-username  
+- Email: tejashalvankar0@gmail.com
