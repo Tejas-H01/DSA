@@ -1,0 +1,34 @@
+class Solution {
+    public int singleNumber(int[] nums) {
+
+        int ans = 0;
+
+        boolean say = true;
+        if (nums.length == 1) {
+            ans = nums[0];
+            return ans;
+        }
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = 0; j < nums.length; j++) {
+                if (j == i) {
+                    ;
+                } else {
+                    if (nums[i] == nums[j]) {
+                        say = true;
+                        break;
+                    } else {
+                        say = false;
+                    }
+                }
+            }
+            if (say == false) {
+                ans = nums[i];
+                return ans;
+            }
+
+        }
+
+        return ans;
+    }
+
+}
