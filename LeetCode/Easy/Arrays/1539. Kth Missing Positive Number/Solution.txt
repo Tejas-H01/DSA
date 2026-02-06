@@ -1,0 +1,26 @@
+class Solution {
+    public int findKthPositive(int[] arr, int k) {
+
+        int n = arr.length;
+        int[] ms = new int[(n*k)+10];
+        int idx = 0;
+        int j = 0;
+
+        for (int i = 1; i < (n*k)+10; i++) {
+            if (j < n) {
+                if (arr[j] != i) {
+                    ms[idx] = i;
+                    idx += 1;
+                } else {
+                    j += 1;
+                }
+            } else {
+                ms[idx] = i;
+                idx += 1;
+            }
+
+        }
+
+        return ms[k - 1];
+    }
+}
