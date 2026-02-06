@@ -50,7 +50,7 @@ Easy
 
 📸 **Submission Result**
 
-![Submission Screenshot](submission.png)
+![Submission Screenshot](submissions.png)
 
 ---
 
