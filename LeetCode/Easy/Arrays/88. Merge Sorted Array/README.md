@@ -35,10 +35,10 @@ The final sorted array should be stored inside `nums1`.
 ## 🖥️ Screenshots
 
 📸 **Case :**  
-![Case 1](case.png)
+![Case 1](case.jpg)
 
 📸 **Submit:**  
-![Submit](submit.png)
+![Submit](submit.jpg)
 
 ---
 
@@ -47,8 +47,6 @@ The final sorted array should be stored inside `nums1`.
 - **Time Complexity:** O((m+n) log (m+n))  
 - **Space Complexity:** O(1)
 
-📸 **Complexity Proof:**  
-![Complexity](complex.png)
 
 ---
 
